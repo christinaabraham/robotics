@@ -14,7 +14,7 @@ wait1Msec(800);
 // Sharp right turn
 motor[leftMotor] = 127;
 motor[rightMotor] = -127;
-wait1Msec(400);
+wait1Msec(575);
 
 // Forward 24"
 motor[leftMotor] = 127;
@@ -24,7 +24,7 @@ wait1Msec(800);
 // Sharp right turn
 motor[leftMotor] = 127;
 motor[rightMotor] = -127;
-wait1Msec(400);
+wait1Msec(575);
 
 // Forward 24"
 motor[leftMotor] = 127;
@@ -34,7 +34,7 @@ wait1Msec(800);
 // Sharp left turn
 motor[leftMotor] = -127;
 motor[rightMotor] = 127;
-wait1Msec(400);
+wait1Msec(575);
 
 // Forward 72"
 motor[leftMotor] = 127;
@@ -44,7 +44,7 @@ wait1Msec(2200);
 // Sharp left turn
 motor[leftMotor] = -127;
 motor[rightMotor] = 127;
-wait1Msec(400);
+wait1Msec(575);
 
 // Forward 50"
 motor[leftMotor] = 127;
@@ -54,7 +54,7 @@ wait1Msec(1666);
 // Sharp left turn
 motor[leftMotor] = -127;
 motor[rightMotor] = 127;
-wait1Msec(400);
+wait1Msec(575);
 
 // Forward 24"
 motor[leftMotor] = 127;
@@ -64,7 +64,7 @@ wait1Msec(800);
 // Sharp left turn
 motor[leftMotor] = -127;
 motor[rightMotor] = 127;
-wait1Msec(400);
+wait1Msec(575);
 
 // Forward 24"
 motor[leftMotor] = 127;
@@ -74,7 +74,7 @@ wait1Msec(800);
 // Sharp right turn
 motor[leftMotor] = 127;
 motor[rightMotor] = -127;
-wait1Msec(400);
+wait1Msec(575);
 
 // Forward 24"
 motor[leftMotor] = 127;
@@ -84,7 +84,7 @@ wait1Msec(800);
 // Sharp right turn
 motor[leftMotor] = 127;
 motor[rightMotor] = -127;
-wait1Msec(400);
+wait1Msec(575);
 
 // Forward 24"
 motor[leftMotor] = 127;
@@ -94,7 +94,7 @@ wait1Msec(800);
 // Sharp left turn
 motor[leftMotor] = -127;
 motor[rightMotor] = 127;
-wait1Msec(400);
+wait1Msec(575);
 
 // Forward 50"
 motor[leftMotor] = 127;
