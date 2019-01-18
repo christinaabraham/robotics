@@ -9,96 +9,96 @@ task main()
 // Forward 24"
 motor[leftMotor] = 127;
 motor[rightMotor] = 127;
-wait1Msec(800);
+wait1Msec(1000);
 
 // Sharp right turn
-motor[leftMotor] = 127;
-motor[rightMotor] = -127;
-wait1Msec(575);
+motor[leftMotor] = 63;
+motor[rightMotor] = -63;
+wait1Msec(1250);
 
 // Forward 24"
 motor[leftMotor] = 127;
 motor[rightMotor] = 127;
-wait1Msec(800);
+wait1Msec(1000);
 
 // Sharp right turn
-motor[leftMotor] = 127;
-motor[rightMotor] = -127;
-wait1Msec(575);
+motor[leftMotor] = 63;
+motor[rightMotor] = -63;
+wait1Msec(1250);
 
 // Forward 24"
 motor[leftMotor] = 127;
 motor[rightMotor] = 127;
-wait1Msec(800);
+wait1Msec(1000);
 
 // Sharp left turn
-motor[leftMotor] = -127;
-motor[rightMotor] = 127;
-wait1Msec(575);
+motor[leftMotor] = -63;
+motor[rightMotor] = 63;
+wait1Msec(1250);
 
 // Forward 72"
 motor[leftMotor] = 127;
 motor[rightMotor] = 127;
-wait1Msec(2200);
- 
+wait1Msec(3300);
+
 // Sharp left turn
-motor[leftMotor] = -127;
+motor[leftMotor] = -63;
+motor[rightMotor] = 63;
+wait1Msec(1250);
+
+// Forward 50"
+motor[leftMotor] = 127;
 motor[rightMotor] = 127;
-wait1Msec(575);
+wait1Msec(2100);
+
+// Sharp left turn
+motor[leftMotor] = -63;
+motor[rightMotor] = 63;
+wait1Msec(1250);
+
+// Forward 24"
+motor[leftMotor] = 127;
+motor[rightMotor] = 127;
+wait1Msec(1000);
+
+// Sharp left turn
+motor[leftMotor] = -63;
+motor[rightMotor] = 63;
+wait1Msec(1250);
+
+// Forward 24"
+motor[leftMotor] = 127;
+motor[rightMotor] = 127;
+wait1Msec(1000);
+
+// Sharp right turn
+motor[leftMotor] = 63;
+motor[rightMotor] = -63;
+wait1Msec(1250);
+
+// Forward 24"
+motor[leftMotor] = 127;
+motor[rightMotor] = 127;
+wait1Msec(1000);
+
+// Sharp right turn
+motor[leftMotor] = 63;
+motor[rightMotor] = -63;
+wait1Msec(1250);
+
+// Forward 24"
+motor[leftMotor] = 127;
+motor[rightMotor] = 127;
+wait1Msec(1000);
+
+// Sharp left turn
+motor[leftMotor] = -63;
+motor[rightMotor] = 63;
+wait1Msec(1300);
 
 // Forward 50"
 motor[leftMotor] = 127;
 motor[rightMotor] = 127;
 wait1Msec(1666);
 
-// Sharp left turn
-motor[leftMotor] = -127;
-motor[rightMotor] = 127;
-wait1Msec(575);
-
-// Forward 24"
-motor[leftMotor] = 127;
-motor[rightMotor] = 127;
-wait1Msec(800);
-
-// Sharp left turn
-motor[leftMotor] = -127;
-motor[rightMotor] = 127;
-wait1Msec(575);
-
-// Forward 24"
-motor[leftMotor] = 127;
-motor[rightMotor] = 127;
-wait1Msec(800);
-
-// Sharp right turn
-motor[leftMotor] = 127;
-motor[rightMotor] = -127;
-wait1Msec(575);
-
-// Forward 24"
-motor[leftMotor] = 127;
-motor[rightMotor] = 127;
-wait1Msec(800);
-
-// Sharp right turn
-motor[leftMotor] = 127;
-motor[rightMotor] = -127;
-wait1Msec(575);
-
-// Forward 24"
-motor[leftMotor] = 127;
-motor[rightMotor] = 127;
-wait1Msec(800);
-
-// Sharp left turn
-motor[leftMotor] = -127;
-motor[rightMotor] = 127;
-wait1Msec(575);
-
-// Forward 50"
-motor[leftMotor] = 127;
-motor[rightMotor] = 127;
-wait1Msec(1666);
-
-} 
+}
