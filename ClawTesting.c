@@ -11,10 +11,7 @@ task main()
 motor[leftMotor] = 127;
 motor[rightMotor] = 127;
 wait1Msec(400);
-
-// Arm motor code
-motor[armMotor] = -30;
-
+	
 // Turn on claw motor to open
 motor[clawMotor] = 50;
 wait1Msec(1000);
