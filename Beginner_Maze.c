@@ -33,25 +33,35 @@ void sharpLeft(int time) {
 }
 
 task main() {
-  
+ 
+  // Section 1
   moveForward(1000);
   sharpRight(1250);
+ // Section 2
   moveForward(1000);
   sharpRight(1250);
+ // Section 3
   moveForward(1000);
   sharpLeft(1250);
+ // Section 4
   moveForward(3300);
   sharpLeft(1250);
+ // Section 5
   moveForward(2100);
   sharpLeft(1250);
+ // Section 6
   moveForward(1000);
   sharpLeft(1250);
+ // Section 7
   moveForward(1000);
   sharpRight(1250);
+ // Section 8
   moveForward(1000);
   sharpRight(1250);
+ // Section 9
   moveForward(1000);
   sharpLeft(1300);
+ // Section 10
   moveForward(1666);
 
 }
